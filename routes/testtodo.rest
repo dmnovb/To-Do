@@ -1,0 +1,28 @@
+GET http://localhost:4000/todo
+
+###
+
+GET http://localhost:4000/todo/62d91bb1c645d174913e4029
+###
+POST http://localhost:4000/todo
+Content-Type: application/json 
+
+{
+    "name" : "Completed",
+    "description": "asd",
+    "isComplete" : false
+}
+
+###
+
+DELETE http://localhost:4000/todo/62d3ea23342f613777ac4f52
+
+### 
+
+PUT  http://localhost:4000/todo/62d91bb1c645d174913e4029
+Content-Type: application/json
+
+{
+    "description": "",
+    "isComplete": true
+}

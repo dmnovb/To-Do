@@ -1,0 +1,18 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.items {
+    margin-left: 1rem;
+}
+
+.todos {
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+
+.date-created {
+    justify-content: right;
+    display: flex;
+}
